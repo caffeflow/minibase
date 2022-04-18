@@ -1,3 +1,8 @@
+**the project is copied from https://github.com/openinx/minibase**
+
+
+
+
 MiniBase is an embedded KV storage engine, it's quit simple, not for production env, just for better understand HBase or
 other LSM-related index algorithm.
 
