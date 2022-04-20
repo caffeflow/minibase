@@ -44,8 +44,8 @@ public class Bytes {
       int x = buf[i];
       if (x > 32 && x < 127) {
         sb.append((char) x);
-      } else {
-        sb.append("\\x").append(HEX_TMP.charAt((x >> 4) & 0x0F)).append(HEX_TMP.charAt(x & 0x0F));
+      } else {sb.append("\\x").append(HEX_TMP.charAt((x >> 4) & 0x0F)).append(HEX_TMP.charAt(x & 0x0F));
+
       }
     }
     return sb.toString();

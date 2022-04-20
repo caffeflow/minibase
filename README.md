@@ -34,6 +34,6 @@ while (kv.hasNext()) {
 ### How to build and test?
 
 ```shell
-git clone git@github.com:openinx/minibase.git
+git clone git@github.com:openinx/Minibase.git
 mvn clean package
 ```
