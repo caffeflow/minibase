@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class KeyValue implements Comparable<KeyValue> {
 
-  public static final int RAW_KEY_LEN_SIZE = 4;
+  public static final int RAW_KEY_LEN_SIZE = 4; // 字节长度
   public static final int VAL_LEN_SIZE = 4;
   public static final int OP_SIZE = 1;
   public static final int SEQ_ID_SIZE = 8;
